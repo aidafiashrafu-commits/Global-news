@@ -1,0 +1,78 @@
+/* Global News Admin Styles */
+
+.global-news-metabox {
+    padding: 12px;
+}
+
+.global-news-metabox .components-base-control {
+    margin-bottom: 12px;
+}
+
+.global-news-breaking-news-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.global-news-breaking-news-toggle input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.global-news-breaking-news-text {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Highlight breaking news posts in admin */
+.global-news-is-breaking {
+    border-left: 4px solid #C40000 !important;
+}
+
+.global-news-is-breaking strong::before {
+    content: "🔴 ";
+}
+
+/* Admin color scheme */
+.wp-admin {
+    --global-news-primary: #000000;
+    --global-news-accent: #C40000;
+}
+
+/* Customize post list */
+.wp-list-table.posts td.column-title a {
+    color: var(--global-news-primary);
+}
+
+.wp-list-table.posts a:hover {
+    color: var(--global-news-accent);
+}
+
+/* Custom admin logo in dashboard */
+#dashboard-widgets .postbox h2 {
+    border-left: 4px solid var(--global-news-accent);
+}
+
+/* Featured image placeholder */
+.set-post-thumbnail span {
+    color: var(--global-news-primary);
+}
+
+/* Category colors in admin */
+.cat-item {
+    padding: 4px 0;
+}
+
+/* Buttons styling */
+.button-primary {
+    background-color: var(--global-news-accent);
+    border-color: #A00000;
+}
+
+.button-primary:hover {
+    background-color: #A00000;
+}

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark mode version -->
+  <g id="logo-dark">
+    <!-- Background circle accent for red dot -->
+    <circle cx="360" cy="30" r="18" fill="#C40000" opacity="0.3"/>
+    
+    <!-- Red accent dot -->
+    <circle cx="360" cy="30" r="12" fill="#C40000"/>
+    
+    <!-- Main text: GLOBAL NEWS (white for dark background) -->
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="64" font-weight="900" letter-spacing="2" fill="#FFFFFF">
+      GLOBAL NEWS
+    </text>
+    
+    <!-- Thin underline with red accent -->
+    <line x1="20" y1="95" x2="340" y2="95" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="20" y1="95" x2="80" y2="95" stroke="#C40000" stroke-width="3"/>
+  </g>
+</svg>
